@@ -1,4 +1,4 @@
-import NatureSVG from '@/components/NatureSVG';
+﻿import NatureSVG from '@/components/NatureSVG';
 
 const jobs = [
   {
@@ -22,17 +22,17 @@ const jobs = [
     desc: "Support land acquisition, zoning, entitlements, and financing processes for King City's attainable housing pipeline. You'll work across municipal, provincial, and private stakeholders.",
     req: [
       'Bachelor\'s degree in Urban Planning, Real Estate, or related field',
-      '2–4 years experience in real estate development or land use planning',
+      '2â€“4 years experience in real estate development or land use planning',
       'Familiarity with Ontario planning legislation and housing programs (CMHC, Ontario Housing)',
       'Strong analytical and project management skills',
     ],
   },
   {
-    title: 'Project Manager — Construction',
+    title: 'Project Manager â€” Construction',
     type: 'Full-time',
     location: 'King City, ON',
     dept: 'Construction',
-    desc: 'Oversee the delivery of attainable housing projects from shovels in the ground to ribbon cutting — managing budgets, schedules, subcontractors, and quality standards with equal care.',
+    desc: 'Oversee the delivery of attainable housing projects from shovels in the ground to ribbon cutting â€” managing budgets, schedules, subcontractors, and quality standards with equal care.',
     req: [
       'Bachelor\'s degree in Construction Management or Engineering',
       '5+ years of residential or multifamily construction project management',
@@ -45,7 +45,7 @@ const jobs = [
     type: 'Full-time',
     location: 'King City, ON',
     dept: 'Community',
-    desc: 'Be the first point of contact for residents in our buildings — helping them access community programs, resolve concerns, connect to local services, and feel genuinely at home.',
+    desc: 'Be the first point of contact for residents in our buildings â€” helping them access community programs, resolve concerns, connect to local services, and feel genuinely at home.',
     req: [
       'Background in social services, property management, or community support',
       'Empathy-first communication style',
@@ -58,7 +58,7 @@ const jobs = [
     type: 'Full-time',
     location: 'King City, ON',
     dept: 'Architecture & Design',
-    desc: "Champion sustainable building practices across our portfolio — from energy modelling to materials selection to post-occupancy monitoring. King City's natural environment is a gift; it's your job to make sure our buildings honour it.",
+    desc: "Champion sustainable building practices across our portfolio â€” from energy modelling to materials selection to post-occupancy monitoring. King City's natural environment is a gift; it's your job to make sure our buildings honour it.",
     req: [
       'Degree in Environmental Studies, Engineering, or Architecture',
       'LEED, PassiveHouse, or equivalent accreditation',
@@ -71,7 +71,7 @@ const jobs = [
     type: 'Full-time',
     location: 'King City, ON (Hybrid)',
     dept: 'Finance',
-    desc: 'Structure and manage the complex multi-source financing that makes attainable homes financially viable — from CMHC programs and provincial grants to private equity and municipal contributions.',
+    desc: 'Structure and manage the complex multi-source financing that makes attainable homes financially viable â€” from CMHC programs and provincial grants to private equity and municipal contributions.',
     req: [
       'CPA or equivalent financial designation',
       '4+ years in real estate finance, non-profit finance, or housing development',
@@ -82,12 +82,12 @@ const jobs = [
 ];
 
 const perks = [
-  { icon: '🌿', title: 'Mission-Driven Work', desc: 'Every day, your work directly helps real people find homes in King City.' },
-  { icon: '💼', title: 'Competitive Compensation', desc: 'Market salaries with performance bonuses tied to community outcomes, not just financials.' },
-  { icon: '🏥', title: 'Full Benefits', desc: 'Comprehensive health, dental, and vision coverage from day one.' },
-  { icon: '🎓', title: 'Learning & Development', desc: 'Annual professional development budget and access to industry conferences.' },
-  { icon: '🌱', title: 'Flexible Work', desc: 'Hybrid arrangements where the role allows, with a modern King City office space.' },
-  { icon: '🤝', title: 'Inclusive Culture', desc: 'We build inclusive communities. Our team reflects the same values.' },
+  { icon: 'ðŸŒ¿', title: 'Mission-Driven Work', desc: 'Every day, your work directly helps real people find homes in King City.' },
+  { icon: 'ðŸ’¼', title: 'Competitive Compensation', desc: 'Market salaries with performance bonuses tied to community outcomes, not just financials.' },
+  { icon: 'ðŸ¥', title: 'Full Benefits', desc: 'Comprehensive health, dental, and vision coverage from day one.' },
+  { icon: 'ðŸŽ“', title: 'Learning & Development', desc: 'Annual professional development budget and access to industry conferences.' },
+  { icon: 'ðŸŒ±', title: 'Flexible Work', desc: 'Hybrid arrangements where the role allows, with a modern King City office space.' },
+  { icon: 'ðŸ¤', title: 'Inclusive Culture', desc: 'We build inclusive communities. Our team reflects the same values.' },
 ];
 
 export default function Careers() {
@@ -117,7 +117,7 @@ export default function Careers() {
             Build a Career That <span className="gradient-text">Builds Community</span>
           </h1>
           <p className="text-white/70 text-lg sm:text-xl leading-relaxed max-w-3xl mx-auto">
-            At King City Attainable Homes, the work you do doesn't just show up in a spreadsheet — it shows up in someone's kitchen, someone's child's bedroom, someone's first night in a place they can finally call their own.
+            At King Township Partnership, the work you do doesn't just show up in a spreadsheet â€” it shows up in someone's kitchen, someone's child's bedroom, someone's first night in a place they can finally call their own.
           </p>
         </div>
       </section>
@@ -126,7 +126,7 @@ export default function Careers() {
       <section className="py-24 bg-gradient-to-b from-[#0C1F3F]/20 to-[#071225]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
-            <p className="text-[#38BDF8] text-sm font-semibold uppercase tracking-widest mb-4">Why King City Attainable Homes?</p>
+            <p className="text-[#38BDF8] text-sm font-semibold uppercase tracking-widest mb-4">Why King Township Partnership?</p>
             <h2
               className="text-3xl sm:text-4xl font-bold"
               style={{ fontFamily: 'var(--font-playfair)' }}
@@ -159,7 +159,7 @@ export default function Careers() {
               className="text-3xl font-bold"
               style={{ fontFamily: 'var(--font-playfair)' }}
             >
-              Current Openings — King City, Ontario
+              Current Openings â€” King City, Ontario
             </h2>
           </div>
 
@@ -190,7 +190,7 @@ export default function Careers() {
                   <ul className="space-y-2 mb-6">
                     {j.req.map((r) => (
                       <li key={r} className="flex items-start gap-2 text-sm text-white/60">
-                        <span className="text-[#38BDF8] mt-0.5 flex-shrink-0">✓</span>
+                        <span className="text-[#38BDF8] mt-0.5 flex-shrink-0">âœ“</span>
                         {r}
                       </li>
                     ))}
@@ -226,3 +226,4 @@ export default function Careers() {
     </div>
   );
 }
+

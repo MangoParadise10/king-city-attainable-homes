@@ -1,4 +1,4 @@
-import Link from 'next/link';
+﻿import Link from 'next/link';
 import NatureSVG from '@/components/NatureSVG';
 
 const phases = [
@@ -6,57 +6,57 @@ const phases = [
     number: '01',
     title: 'Planning',
     subtitle: 'Community-First Strategy',
-    desc: 'Every project begins with deep listening. We engage with residents, local government, and community organizations in King Township to understand what this land and its people truly need — before a single line is drawn.',
-    icon: '🗺️',
+    desc: 'Every project begins with deep listening. We engage with residents, local government, and community organizations in King Township to understand what this land and its people truly need â€” before a single line is drawn.',
+    icon: 'ðŸ—ºï¸',
   },
   {
     number: '02',
     title: 'Finding',
     subtitle: 'Site Selection & Relationship Building',
     desc: "We identify sites in King City that connect people to nature, transit, schools, and each other. We build relationships with landowners, municipal partners, and Indigenous communities as we determine where attainable homes can best serve the area's growth.",
-    icon: '📍',
+    icon: 'ðŸ“',
   },
   {
     number: '03',
     title: 'Creating',
     subtitle: 'Inclusive Architectural Design',
     desc: "Our design philosophy is rooted in dignity. We work with architects who understand that the look, feel, and functionality of a home signals its residents' worth. Every building is designed to feel welcoming, not institutional.",
-    icon: '✏️',
+    icon: 'âœï¸',
   },
   {
     number: '04',
     title: 'Financing',
     subtitle: 'Public-Private Partnerships',
     desc: 'Attainable housing requires creative financial structures. We work with municipal and provincial governments, non-profits, and private capital to assemble financing that allows us to deliver quality homes at attainable price points.',
-    icon: '🤝',
+    icon: 'ðŸ¤',
   },
   {
     number: '05',
     title: 'Innovating',
     subtitle: 'Smart, Sustainable Construction',
-    desc: "King City's natural environment is a gift we intend to protect. We employ sustainable building practices, energy-efficient systems, and responsible material sourcing — building homes that are good for the planet and keep operating costs low for residents.",
-    icon: '💡',
+    desc: "King City's natural environment is a gift we intend to protect. We employ sustainable building practices, energy-efficient systems, and responsible material sourcing â€” building homes that are good for the planet and keep operating costs low for residents.",
+    icon: 'ðŸ’¡',
   },
   {
     number: '06',
     title: 'Building',
     subtitle: 'Project Management & Construction',
     desc: 'Our construction process is held to the same standard as any premium development. We refuse to let "attainable" become a code word for "lesser." Every unit is built to last, with the craftsmanship and quality materials that every resident deserves.',
-    icon: '🏗️',
+    icon: 'ðŸ—ï¸',
   },
   {
     number: '07',
     title: 'Thriving',
     subtitle: 'Resident Experience & Wellbeing',
     desc: 'Moving in is just the beginning. We invest in programming, green spaces, and resident services that help communities flourish. Our Resident Stewardship Program supports residents in building financial resilience, community ties, and a sense of pride in their home.',
-    icon: '🌱',
+    icon: 'ðŸŒ±',
   },
   {
     number: '08',
     title: 'Enduring',
     subtitle: 'Long-term Community Stewardship',
-    desc: 'We are long-term partners, not short-term developers. We maintain our properties, evolve our programs, and remain invested in the wellbeing of King City Attainable Homes communities for decades to come.',
-    icon: '♾️',
+    desc: 'We are long-term partners, not short-term developers. We maintain our properties, evolve our programs, and remain invested in the wellbeing of King Township Partnership communities for decades to come.',
+    icon: 'â™¾ï¸',
   },
 ];
 
@@ -64,7 +64,7 @@ const divisions = [
   {
     name: 'King City Development',
     founded: 'Est. 2024',
-    desc: 'The lead development entity overseeing all attainable housing initiatives in King Township — from land acquisition through financing and entitlements.',
+    desc: 'The lead development entity overseeing all attainable housing initiatives in King Township â€” from land acquisition through financing and entitlements.',
   },
   {
     name: 'King City Build',
@@ -74,7 +74,7 @@ const divisions = [
   {
     name: 'Community Living Partners',
     founded: 'Resident Services',
-    desc: 'The team dedicated to the lived experience of residents — programming, community events, financial literacy, and long-term wellbeing support.',
+    desc: 'The team dedicated to the lived experience of residents â€” programming, community events, financial literacy, and long-term wellbeing support.',
   },
   {
     name: 'Green Build Studio',
@@ -111,7 +111,7 @@ export default function WhatWeDo() {
             <span className="gradient-text">Strengthening Communities</span>
           </h1>
           <p className="text-white/70 text-lg sm:text-xl leading-relaxed max-w-3xl mx-auto">
-            We are a fully integrated housing enterprise operating across every phase of a home's life — from a blank field in King Township to a vibrant, thriving community decades later.
+            We are a fully integrated housing enterprise operating across every phase of a home's life â€” from a blank field in King Township to a vibrant, thriving community decades later.
           </p>
         </div>
       </section>
@@ -121,9 +121,9 @@ export default function WhatWeDo() {
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <div className="text-5xl text-[#38BDF8]/30 font-serif mb-4">&ldquo;</div>
           <p className="text-xl sm:text-2xl text-white/80 italic leading-relaxed">
-            The measure of attainable housing isn't just whether people can afford it — it's whether they're proud to live there. That's the bar we set ourselves.
+            The measure of attainable housing isn't just whether people can afford it â€” it's whether they're proud to live there. That's the bar we set ourselves.
           </p>
-          <p className="mt-4 text-[#38BDF8] font-semibold text-sm">— King City Attainable Homes, Project Charter</p>
+          <p className="mt-4 text-[#38BDF8] font-semibold text-sm">â€” King Township Partnership, Project Charter</p>
         </div>
       </section>
 
@@ -235,3 +235,4 @@ export default function WhatWeDo() {
     </div>
   );
 }
+

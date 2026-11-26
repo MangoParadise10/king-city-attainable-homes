@@ -8,10 +8,10 @@ const inter = Inter({ subsets: ["latin"], variable: "--font-inter" });
 const playfair = Playfair_Display({ subsets: ["latin"], variable: "--font-playfair" });
 
 export const metadata: Metadata = {
-  title: "King City Attainable Homes — Homes for Everyone",
+  title: "King Township Partnership — Homes for Everyone",
   description:
-    "King City Attainable Homes is an inclusive housing initiative in King City, Ontario — designed from the ground up with every resident in mind, regardless of income.",
-  keywords: ["attainable housing", "King City", "Ontario", "affordable homes", "inclusive community"],
+    "King Township Partnership is a community-rooted housing initiative in King City, Ontario — building attainable homes designed from the ground up with every resident in mind.",
+  keywords: ["attainable housing", "King Township", "King City", "Ontario", "inclusive community", "housing partnership"],
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {

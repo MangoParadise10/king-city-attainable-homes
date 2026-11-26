@@ -1,4 +1,4 @@
-import NatureSVG from '@/components/NatureSVG';
+﻿import NatureSVG from '@/components/NatureSVG';
 import Link from 'next/link';
 
 const team = [
@@ -38,11 +38,11 @@ const team = [
 ];
 
 const timeline = [
-  { year: '2022', event: 'King City Attainable Homes concept developed following King Township housing needs assessment' },
+  { year: '2022', event: 'King Township Partnership concept developed following King Township housing needs assessment' },
   { year: '2023', event: 'Founding partnership established with Township of King and York Region' },
   { year: '2024', event: 'Land acquisition phase begins; first community consultations held across King City' },
   { year: '2025', event: 'Architectural design and financing structures finalized for Phase 1 development' },
-  { year: '2026', event: 'Groundbreaking and first shovel in the ground — Greenfield Commons begins construction' },
+  { year: '2026', event: 'Groundbreaking and first shovel in the ground â€” Greenfield Commons begins construction' },
 ];
 
 export default function WhoWeAre() {
@@ -72,7 +72,7 @@ export default function WhoWeAre() {
             Who We Are
           </h1>
           <p className="text-white/70 text-lg sm:text-xl leading-relaxed max-w-3xl mx-auto">
-            We are planners, architects, builders, community organizers, financial innovators, and neighbours — united by the belief that everyone in King City deserves a home they're proud of.
+            We are planners, architects, builders, community organizers, financial innovators, and neighbours â€” united by the belief that everyone in King Township deserves a home they are proud of.
           </p>
         </div>
       </section>
@@ -91,20 +91,20 @@ export default function WhoWeAre() {
               </h2>
               <div className="space-y-5 text-white/70 leading-relaxed">
                 <p>
-                  King City Attainable Homes was born out of a recognition that the housing crisis is not an abstract policy problem — it's the teacher who can't afford to live near the school she works in, the senior who raised her children here and now faces displacement, the young couple priced out of the community they grew up in.
+                  King Township Partnership was born out of a recognition that the housing crisis is not an abstract policy problem â€” it is the teacher who cannot afford to live near the school they work in, the senior who raised their children here and now faces displacement, the young couple priced out of the community they grew up in.
                 </p>
                 <p>
                   We exist to change that. Not by building lesser homes in forgotten corners of the township, but by developing genuinely beautiful, well-located communities that integrate people at different income levels without hierarchy or stigma.
                 </p>
                 <p>
-                  Our guiding philosophy: housing that is attainable should be indistinguishable — in design, in quality, in community feel — from housing that is not.
+                  Our guiding philosophy: housing that is attainable should be indistinguishable â€” in design, in quality, in community feel â€” from housing that is not.
                 </p>
               </div>
               <div className="mt-8 grid grid-cols-3 gap-4">
                 {[
                   { value: '0', label: 'Defaults or Foreclosures' },
                   { value: '100%', label: 'Design Integrity' },
-                  { value: '∞', label: 'Community Commitment' },
+                  { value: 'âˆž', label: 'Community Commitment' },
                 ].map((s) => (
                   <div key={s.label} className="text-center">
                     <div className="text-2xl font-black gradient-text">{s.value}</div>
@@ -224,3 +224,4 @@ export default function WhoWeAre() {
     </div>
   );
 }
+
