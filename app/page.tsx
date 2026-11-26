@@ -92,9 +92,9 @@ export default function Home() {
         </div>
         <div className="relative z-20 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-24">
           <div className="max-w-3xl">
-            <div className="inline-flex items-center gap-2 bg-[#38BDF8]/10 border border-[#38BDF8]/30 rounded-full px-4 py-1.5 mb-8">
-              <span className="w-2 h-2 rounded-full bg-[#38BDF8] animate-pulse" />
-              <span className="text-[#38BDF8] text-sm font-medium">King Township, Ontario · Housing Partnership</span>
+            <div className="inline-flex items-center gap-2 mb-8">
+              <span className="w-1.5 h-1.5 bg-[#38BDF8] animate-pulse" />
+              <span className="text-[#38BDF8] text-[11px] font-semibold tracking-[0.15em] uppercase">[ King Township, Ontario · Housing Partnership ]</span>
             </div>
             <h1
               className="text-4xl sm:text-5xl lg:text-6xl font-bold leading-tight mb-6"
@@ -139,7 +139,7 @@ export default function Home() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid lg:grid-cols-2 gap-16 items-center">
             <div>
-              <p className="reveal text-[#38BDF8] text-sm font-semibold uppercase tracking-widest mb-4">Our Story</p>
+              <p className="reveal text-[#38BDF8] text-[11px] font-semibold uppercase tracking-[0.15em] mb-4">[ Our Story ]</p>
               <h2
                 className="reveal delay-1 text-3xl sm:text-4xl font-bold mb-6 leading-tight"
                 style={{ fontFamily: 'var(--font-playfair)' }}
@@ -186,7 +186,7 @@ export default function Home() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div>
-              <p className="reveal text-[#38BDF8] text-sm font-semibold uppercase tracking-widest mb-4">Location &amp; Connectivity</p>
+              <p className="reveal text-[#38BDF8] text-[11px] font-semibold uppercase tracking-[0.15em] mb-4">[ Location &amp; Connectivity ]</p>
               <h2
                 className="reveal delay-1 text-3xl sm:text-4xl font-bold mb-6"
                 style={{ fontFamily: 'var(--font-playfair)' }}
@@ -226,7 +226,7 @@ export default function Home() {
       <section className="relative py-24 bg-gradient-to-b from-[#071225] to-[#0C1F3F]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-14 reveal">
-            <p className="text-[#38BDF8] text-sm font-semibold uppercase tracking-widest mb-4">How We Work</p>
+            <p className="text-[#38BDF8] text-[11px] font-semibold uppercase tracking-[0.15em] mb-4">[ How We Work ]</p>
             <h2 className="text-3xl sm:text-4xl font-bold" style={{ fontFamily: 'var(--font-playfair)' }}>
               Eight Phases. One Community.
             </h2>
@@ -250,7 +250,7 @@ export default function Home() {
       <section className="py-24 relative overflow-hidden">
         <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16 reveal">
-            <p className="text-[#38BDF8] text-sm font-semibold uppercase tracking-widest mb-4">Our Foundation</p>
+            <p className="text-[#38BDF8] text-[11px] font-semibold uppercase tracking-[0.15em] mb-4">[ Our Foundation ]</p>
             <h2 className="text-3xl sm:text-4xl font-bold" style={{ fontFamily: 'var(--font-playfair)' }}>What We Stand For</h2>
             <div className="mt-4 h-0.5 w-16 bg-gradient-to-r from-transparent via-[#38BDF8] to-transparent mx-auto" />
           </div>
@@ -270,7 +270,7 @@ export default function Home() {
       <section className="py-24 bg-gradient-to-b from-[#0C1F3F]/30 to-[#071225]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16 reveal">
-            <p className="text-[#38BDF8] text-sm font-semibold uppercase tracking-widest mb-4">Community Voices</p>
+            <p className="text-[#38BDF8] text-[11px] font-semibold uppercase tracking-[0.15em] mb-4">[ Community Voices ]</p>
             <h2 className="text-3xl sm:text-4xl font-bold" style={{ fontFamily: 'var(--font-playfair)' }}>
               The People Who Need This to Happen
             </h2>
@@ -282,7 +282,7 @@ export default function Home() {
                 <div className="text-[#38BDF8] text-3xl mb-4 leading-none font-serif">"</div>
                 <p className="text-white/80 text-sm leading-relaxed mb-6 italic">{t.quote}</p>
                 <div className="flex items-center gap-3 pt-4 border-t border-[#38BDF8]/10">
-                  <div className="w-10 h-10 rounded-full bg-gradient-to-br from-[#38BDF8]/20 to-[#0C1F3F] border border-[#38BDF8]/30 flex items-center justify-center text-[#38BDF8] font-bold text-xs flex-shrink-0">
+                  <div className="w-10 h-10 bg-[#0C1F3F] border border-[#38BDF8]/30 flex items-center justify-center text-[#38BDF8] font-bold text-xs flex-shrink-0" style={{borderRadius:'2px'}}>
                     {t.avatar}
                   </div>
                   <div>
@@ -301,7 +301,7 @@ export default function Home() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex flex-col sm:flex-row sm:items-end sm:justify-between mb-12 gap-4">
             <div className="reveal">
-              <p className="text-[#38BDF8] text-sm font-semibold uppercase tracking-widest mb-3">Our Work</p>
+              <p className="text-[#38BDF8] text-[11px] font-semibold uppercase tracking-[0.15em] mb-3">[ Our Work ]</p>
               <h2 className="text-3xl sm:text-4xl font-bold" style={{ fontFamily: 'var(--font-playfair)' }}>Featured Projects</h2>
             </div>
             <Link href="/projects" className="btn-outline text-sm reveal">View All Projects →</Link>
@@ -317,7 +317,7 @@ export default function Home() {
                   <img src={p.img} alt={p.name} className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" />
                   <div className="absolute inset-0 bg-gradient-to-t from-[#071225] to-transparent" />
                   <div className="absolute bottom-4 left-4">
-                    <span className="bg-[#38BDF8]/20 border border-[#38BDF8]/30 text-[#38BDF8] text-xs px-3 py-1 rounded-full">{p.units}</span>
+                    <span className="text-[#38BDF8] text-[10px] font-semibold tracking-[0.12em] uppercase">[ {p.units} ]</span>
                   </div>
                 </div>
                 <div className="p-5 bg-[#0C1F3F]/40">

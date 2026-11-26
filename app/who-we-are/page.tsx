@@ -1,4 +1,4 @@
-﻿import NatureSVG from '@/components/NatureSVG';
+import NatureSVG from '@/components/NatureSVG';
 import Link from 'next/link';
 
 const team = [
@@ -42,7 +42,7 @@ const timeline = [
   { year: '2023', event: 'Founding partnership established with Township of King and York Region' },
   { year: '2024', event: 'Land acquisition phase begins; first community consultations held across King City' },
   { year: '2025', event: 'Architectural design and financing structures finalized for Phase 1 development' },
-  { year: '2026', event: 'Groundbreaking and first shovel in the ground â€” Greenfield Commons begins construction' },
+  { year: '2026', event: 'Groundbreaking and first shovel in the ground — Greenfield Commons begins construction' },
 ];
 
 export default function WhoWeAre() {
@@ -64,7 +64,7 @@ export default function WhoWeAre() {
           <NatureSVG className="w-full h-40" />
         </div>
         <div className="relative z-20 max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <p className="text-[#38BDF8] text-sm font-semibold uppercase tracking-widest mb-4">Our People</p>
+          <p className="text-[#38BDF8] text-[11px] font-semibold uppercase tracking-[0.15em] mb-4">[ Our People]</p>
           <h1
             className="text-4xl sm:text-5xl lg:text-6xl font-bold mb-6"
             style={{ fontFamily: 'var(--font-playfair)' }}
@@ -72,7 +72,7 @@ export default function WhoWeAre() {
             Who We Are
           </h1>
           <p className="text-white/70 text-lg sm:text-xl leading-relaxed max-w-3xl mx-auto">
-            We are planners, architects, builders, community organizers, financial innovators, and neighbours â€” united by the belief that everyone in King Township deserves a home they are proud of.
+            We are planners, architects, builders, community organizers, financial innovators, and neighbours — united by the belief that everyone in King Township deserves a home they are proud of.
           </p>
         </div>
       </section>
@@ -82,7 +82,7 @@ export default function WhoWeAre() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid lg:grid-cols-2 gap-16 items-center">
             <div>
-              <p className="text-[#38BDF8] text-sm font-semibold uppercase tracking-widest mb-4">Our Promise</p>
+              <p className="text-[#38BDF8] text-[11px] font-semibold uppercase tracking-[0.15em] mb-4">[ Our Promise]</p>
               <h2
                 className="text-3xl sm:text-4xl font-bold mb-6"
                 style={{ fontFamily: 'var(--font-playfair)' }}
@@ -91,20 +91,20 @@ export default function WhoWeAre() {
               </h2>
               <div className="space-y-5 text-white/70 leading-relaxed">
                 <p>
-                  King Township Partnership was born out of a recognition that the housing crisis is not an abstract policy problem â€” it is the teacher who cannot afford to live near the school they work in, the senior who raised their children here and now faces displacement, the young couple priced out of the community they grew up in.
+                  King Township Partnership was born out of a recognition that the housing crisis is not an abstract policy problem — it is the teacher who cannot afford to live near the school they work in, the senior who raised their children here and now faces displacement, the young couple priced out of the community they grew up in.
                 </p>
                 <p>
                   We exist to change that. Not by building lesser homes in forgotten corners of the township, but by developing genuinely beautiful, well-located communities that integrate people at different income levels without hierarchy or stigma.
                 </p>
                 <p>
-                  Our guiding philosophy: housing that is attainable should be indistinguishable â€” in design, in quality, in community feel â€” from housing that is not.
+                  Our guiding philosophy: housing that is attainable should be indistinguishable — in design, in quality, in community feel — from housing that is not.
                 </p>
               </div>
               <div className="mt-8 grid grid-cols-3 gap-4">
                 {[
                   { value: '0', label: 'Defaults or Foreclosures' },
                   { value: '100%', label: 'Design Integrity' },
-                  { value: 'âˆž', label: 'Community Commitment' },
+                  { value: '∞', label: 'Community Commitment' },
                 ].map((s) => (
                   <div key={s.label} className="text-center">
                     <div className="text-2xl font-black gradient-text">{s.value}</div>
@@ -137,7 +137,7 @@ export default function WhoWeAre() {
       <section className="py-24 bg-gradient-to-b from-[#0C1F3F]/30 to-[#071225]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
-            <p className="text-[#38BDF8] text-sm font-semibold uppercase tracking-widest mb-4">The Team</p>
+            <p className="text-[#38BDF8] text-[11px] font-semibold uppercase tracking-[0.15em] mb-4">[ The Team]</p>
             <h2
               className="text-3xl sm:text-4xl font-bold"
               style={{ fontFamily: 'var(--font-playfair)' }}
@@ -158,7 +158,7 @@ export default function WhoWeAre() {
                     key={m.name}
                     className="bg-[#0C1F3F]/40 border border-[#38BDF8]/10 rounded-xl p-5 flex items-center gap-4 card-hover"
                   >
-                    <div className="w-12 h-12 rounded-full bg-gradient-to-br from-[#38BDF8]/20 to-[#0C1F3F] border border-[#38BDF8]/30 flex items-center justify-center text-[#38BDF8] font-bold text-sm flex-shrink-0">
+                    <div className="w-12 h-12 bg-[#0C1F3F] border border-[#38BDF8]/30 flex items-center justify-center text-[#38BDF8] font-bold text-sm flex-shrink-0" style={{borderRadius:'2px'}}>
                       {m.initials}
                     </div>
                     <div>
@@ -177,7 +177,7 @@ export default function WhoWeAre() {
       <section className="py-24">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
-            <p className="text-[#38BDF8] text-sm font-semibold uppercase tracking-widest mb-4">Our Journey</p>
+            <p className="text-[#38BDF8] text-[11px] font-semibold uppercase tracking-[0.15em] mb-4">[ Our Journey]</p>
             <h2
               className="text-3xl font-bold"
               style={{ fontFamily: 'var(--font-playfair)' }}

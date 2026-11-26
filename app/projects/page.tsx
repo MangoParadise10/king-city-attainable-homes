@@ -67,7 +67,7 @@ export default function Projects() {
           <NatureSVG className="w-full h-40" />
         </div>
         <div className="relative z-20 max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <p className="text-[#38BDF8] text-sm font-semibold uppercase tracking-widest mb-4">Our Work</p>
+          <p className="text-[#38BDF8] text-[11px] font-semibold uppercase tracking-[0.15em] mb-4">[ Our Work]</p>
           <h1
             className="text-4xl sm:text-5xl lg:text-6xl font-bold mb-6"
             style={{ fontFamily: 'var(--font-playfair)' }}
@@ -116,7 +116,7 @@ export default function Projects() {
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-[#071225]/70 to-transparent" />
                 <div className="absolute top-4 left-4">
-                  <span className={`border rounded-full px-3 py-1 text-xs font-semibold ${p.statusColor}`}>
+                  <span className={`border px-3 py-1 text-[10px] font-semibold tracking-[0.1em] uppercase ${p.statusColor}`}>
                     {p.status}
                   </span>
                 </div>

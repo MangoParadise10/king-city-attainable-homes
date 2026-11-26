@@ -34,7 +34,7 @@ export default function Footer() {
             </p>
             <div className="mt-6 flex gap-3">
               {['f', 'x', 'in', 'ig'].map((s) => (
-                <a key={s} href="#" className="w-8 h-8 rounded-full border border-white/10 flex items-center justify-center text-white/40 hover:border-[#38BDF8]/50 hover:text-[#38BDF8] transition-all text-xs">
+                <a key={s} href="#" className="w-8 h-8 border border-white/10 flex items-center justify-center text-white/40 hover:border-[#38BDF8]/50 hover:text-[#38BDF8] transition-all text-xs" style={{borderRadius:'2px'}}>
                   {s}
                 </a>
               ))}

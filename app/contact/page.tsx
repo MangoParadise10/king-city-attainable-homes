@@ -1,4 +1,4 @@
-﻿import NatureSVG from '@/components/NatureSVG';
+import NatureSVG from '@/components/NatureSVG';
 
 export default function Contact() {
   return (
@@ -19,7 +19,7 @@ export default function Contact() {
           <NatureSVG className="w-full h-40" />
         </div>
         <div className="relative z-20 max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <p className="text-[#38BDF8] text-sm font-semibold uppercase tracking-widest mb-4">Get in Touch</p>
+          <p className="text-[#38BDF8] text-[11px] font-semibold uppercase tracking-[0.15em] mb-4">[ Get in Touch]</p>
           <h1
             className="text-4xl sm:text-5xl font-bold mb-6"
             style={{ fontFamily: 'var(--font-playfair)' }}
@@ -27,7 +27,7 @@ export default function Contact() {
             Let's Build Something <span className="gradient-text">Together</span>
           </h1>
           <p className="text-white/70 text-lg max-w-2xl mx-auto">
-            Whether you're a future resident, a community partner, a potential funder, or simply curious about what we're doing â€” we'd love to hear from you.
+            Whether you're a future resident, a community partner, a potential funder, or simply curious about what we're doing — we'd love to hear from you.
           </p>
         </div>
       </section>
@@ -46,26 +46,26 @@ export default function Contact() {
                   King Township Partnership
                 </h2>
                 <p className="text-white/65 text-sm leading-relaxed">
-                  Thanks for your interest in King Township Partnership. Whether you're developing a project, seeking a home, or looking to partner with us â€” we're always eager to connect.
+                  Thanks for your interest in King Township Partnership. Whether you're developing a project, seeking a home, or looking to partner with us — we're always eager to connect.
                 </p>
               </div>
 
               {[
                 {
                   label: 'Location',
-                  icon: 'ðŸ“',
+                  icon: '📍',
                   value: 'King City, Ontario, Canada',
                   sub: 'Township of King',
                 },
                 {
                   label: 'Email',
-                  icon: 'âœ‰ï¸',
+                  icon: '✉️',
                   value: 'info@kinghousingpartnership.ca',
                   sub: 'We respond within 2 business days',
                 },
                 {
                   label: 'Website',
-                  icon: 'ðŸŒ',
+                  icon: '🌐',
                   value: 'kinghousingpartnership.ca',
                   sub: 'King Township Partnership',
                 },
@@ -97,7 +97,7 @@ export default function Contact() {
                       className="flex items-center justify-between px-4 py-3 bg-[#0C1F3F]/40 border border-[#38BDF8]/10 rounded-xl text-sm text-white/70 hover:text-[#38BDF8] hover:border-[#38BDF8]/30 transition-all"
                     >
                       {l.label}
-                      <span>â†’</span>
+                      <span>→</span>
                     </a>
                   ))}
                 </div>
@@ -142,7 +142,7 @@ export default function Contact() {
                     />
                   </div>
                   <div>
-                    <label className="block text-white/70 text-sm mb-2">I am reaching out as aâ€¦</label>
+                    <label className="block text-white/70 text-sm mb-2">I am reaching out as a…</label>
                     <select className="w-full bg-[#071225] border border-[#38BDF8]/20 rounded-xl px-4 py-3 text-white/70 text-sm focus:outline-none focus:border-[#38BDF8]/60 transition-colors">
                       <option value="">Select one</option>
                       <option>Prospective Resident</option>
@@ -166,7 +166,7 @@ export default function Contact() {
                     <label className="block text-white/70 text-sm mb-2">Message</label>
                     <textarea
                       rows={5}
-                      placeholder="Tell us more about your inquiryâ€¦"
+                      placeholder="Tell us more about your inquiry…"
                       className="w-full bg-[#071225] border border-[#38BDF8]/20 rounded-xl px-4 py-3 text-white placeholder-white/30 text-sm focus:outline-none focus:border-[#38BDF8]/60 transition-colors resize-none"
                     />
                   </div>
@@ -195,7 +195,7 @@ export default function Contact() {
             <div className="absolute inset-0 flex items-center justify-center">
               <div className="bg-[#071225]/80 backdrop-blur-sm border border-[#38BDF8]/20 rounded-xl px-6 py-4 text-center">
                 <p className="text-[#38BDF8] font-bold">King City, Ontario</p>
-                <p className="text-white/60 text-sm">Township of King Â· York Region Â· Canada</p>
+                <p className="text-white/60 text-sm">Township of King · York Region · Canada</p>
               </div>
             </div>
           </div>

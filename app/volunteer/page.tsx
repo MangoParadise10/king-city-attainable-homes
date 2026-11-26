@@ -73,7 +73,7 @@ export default function Volunteer() {
           <NatureSVG className="w-full h-40" />
         </div>
         <div className="relative z-20 max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <p className="text-[#38BDF8] text-sm font-semibold uppercase tracking-widest mb-4">Get Involved</p>
+          <p className="text-[#38BDF8] text-[11px] font-semibold uppercase tracking-[0.15em] mb-4">[ Get Involved]</p>
           <h1
             className="text-4xl sm:text-5xl lg:text-6xl font-bold mb-6"
             style={{ fontFamily: 'var(--font-playfair)' }}
@@ -90,7 +90,7 @@ export default function Volunteer() {
       <section className="py-24 bg-gradient-to-b from-[#0C1F3F]/20 to-[#071225]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
-            <p className="text-[#38BDF8] text-sm font-semibold uppercase tracking-widest mb-4">Why Volunteer?</p>
+            <p className="text-[#38BDF8] text-[11px] font-semibold uppercase tracking-[0.15em] mb-4">[ Why Volunteer?]</p>
             <h2
               className="text-3xl sm:text-4xl font-bold"
               style={{ fontFamily: 'var(--font-playfair)' }}
@@ -118,7 +118,7 @@ export default function Volunteer() {
       <section className="py-24">
         <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
-            <p className="text-[#38BDF8] text-sm font-semibold uppercase tracking-widest mb-4">Volunteer Opportunities</p>
+            <p className="text-[#38BDF8] text-[11px] font-semibold uppercase tracking-[0.15em] mb-4">[ Volunteer Opportunities]</p>
             <h2
               className="text-3xl font-bold"
               style={{ fontFamily: 'var(--font-playfair)' }}
