@@ -24,11 +24,26 @@ export default function Navbar() {
         <div className="flex items-center justify-between h-20">
           {/* Logo */}
           <Link href="/" className="flex items-center gap-3 group">
-            <div className="w-9 h-9 rounded-lg bg-gradient-to-br from-[#38BDF8] to-[#0C1F3F] flex items-center justify-center">
-              <svg viewBox="0 0 40 40" fill="none" className="w-5 h-5">
-                <path d="M20 5L5 16v20h30V16L20 5z" fill="#071225" stroke="#38BDF8" strokeWidth="2"/>
-                <path d="M15 36V24h10v12" fill="#38BDF8"/>
-                <circle cx="20" cy="14" r="3" fill="#38BDF8"/>
+            <div className="w-10 h-10 rounded-lg bg-[#071225] border border-[#38BDF8]/30 flex items-center justify-center">
+              <svg viewBox="0 0 40 40" fill="none" className="w-8 h-8">
+                {/* Gothic arch */}
+                <path d="M8 34 Q8 14 20 7 Q32 14 32 34" fill="none" stroke="#38BDF8" strokeWidth="1.8" opacity="0.9"/>
+                <path d="M12 34 Q12 18 20 12 Q28 18 28 34" fill="none" stroke="#38BDF8" strokeWidth="0.8" opacity="0.35"/>
+                {/* Person 1 */}
+                <circle cx="13" cy="25" r="1.8" fill="#38BDF8" opacity="0.9"/>
+                <line x1="13" y1="27" x2="13" y2="32" stroke="#38BDF8" strokeWidth="1.4" strokeLinecap="round"/>
+                <line x1="11" y1="29" x2="15" y2="29" stroke="#38BDF8" strokeWidth="1.2" strokeLinecap="round"/>
+                {/* Person 2 */}
+                <circle cx="20" cy="23.5" r="2" fill="#7DD3FC"/>
+                <line x1="20" y1="25.5" x2="20" y2="31" stroke="#7DD3FC" strokeWidth="1.5" strokeLinecap="round"/>
+                <line x1="18" y1="28" x2="22" y2="28" stroke="#7DD3FC" strokeWidth="1.3" strokeLinecap="round"/>
+                {/* Person 3 */}
+                <circle cx="27" cy="25" r="1.8" fill="#38BDF8" opacity="0.9"/>
+                <line x1="27" y1="27" x2="27" y2="32" stroke="#38BDF8" strokeWidth="1.4" strokeLinecap="round"/>
+                <line x1="25" y1="29" x2="29" y2="29" stroke="#38BDF8" strokeWidth="1.2" strokeLinecap="round"/>
+                {/* Hands */}
+                <line x1="15" y1="29" x2="18" y2="28" stroke="#38BDF8" strokeWidth="1" strokeLinecap="round" opacity="0.6"/>
+                <line x1="22" y1="28" x2="25" y2="29" stroke="#38BDF8" strokeWidth="1" strokeLinecap="round" opacity="0.6"/>
               </svg>
             </div>
             <div className="leading-none">
